@@ -1,0 +1,34 @@
+package com.JAVA1stCLASS;
+
+import java.util.Scanner;
+
+public class UserInput {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Hi, please fill your NAME here??");
+		
+		
+		String name=scanner.nextLine();
+		
+		System.out.printf("Hi %s, please tell me your age??",name);
+		
+		int age = scanner.nextInt();
+		
+		scanner.hasNextLine();
+		
+		System.out.println("thanks for proving your details od age is" + age);
+		
+		
+		String query = scanner.nextLine();
+		System.out.println("please write your query here");
+		
+		System.out.println("thanks you");
+		
+		scanner.close();
+		
+	
+
+}}
